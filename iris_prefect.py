@@ -11,7 +11,7 @@ def load_dataset():
 
     print("Loading Iris Dataset...")
 
-   df = pd.read_csv("iris.csv")
+    df = pd.read_csv("iris.csv")
 
     print("Dataset Loaded Successfully")
     print("Dataset Shape:", df.shape)
